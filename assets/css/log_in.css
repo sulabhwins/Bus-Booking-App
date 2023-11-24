@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/logi.jpg");
+    background-size:cover ;
+    
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+h5{
+    color: azure;
+    font-weight: 800;
+    font-size: 800;
+}
+form {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(235, 233, 233, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.error {
+    color: #d9534f;
+    margin-top: 10px;
+}
